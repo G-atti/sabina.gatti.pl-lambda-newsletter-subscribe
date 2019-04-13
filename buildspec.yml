@@ -4,9 +4,6 @@ phases:
   install:
     commands:
       - npm install
-  pre_build:
-    commands:
-      - 'echo "{\"newsletter_endpoint\": \"$NEWSLETTER_ENDPOINT\"}" > env.json'
   build:
     commands:
       - zip -r code.zip .
