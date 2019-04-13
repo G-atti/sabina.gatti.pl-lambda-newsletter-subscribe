@@ -1,0 +1,15 @@
+{
+  "name": "sabina-gatti-pl_newsletter_subscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0",
+    "validate.js": "^0.12.0"
+  }
+}
